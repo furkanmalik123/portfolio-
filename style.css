@@ -627,6 +627,18 @@ p {
 		border: 10px solid rgb(253, 3, 3);
 		
 	}
+	.about-img{
+		height: 100%;
+		width: 100%;
+		position: relative;
+		border: 10px solid white;
+		overflow: hidden;
+	}
+	.about-img img{
+		height: auto;
+		width: 100%;
+		object-fit: cover;
+	}
 	#about .col-right {
 		text-align: left;
 		padding: 30px;
@@ -674,7 +686,7 @@ p {
 
 /* Media Query For Desktop */
 @media only screen and (min-width: 1200px) {
-	/* header */
+/* 	/* header * */
 	#header .hamburger {
 		display: none;
 	}
